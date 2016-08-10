@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>chairmanzian@gmail.com</title>
+   
+   <link>mailto:chairmanzian@gmail.com</link>
+   <description>Synthetic biologist, bioengineer, biosafety advocate, STEM outreach organizer, political junkie, menswear enthusiast, fountain pen user, coffee addict, and more.</description>
+   <language>en-us</language>
+   <managingEditor> Zian Liu</managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>Rice 360 Design Competition</title>
+	  <link>//rice-360</link>
+	  <author>Zian Liu</author>
+	  <pubDate>2016-04-15T10:00:00-07:00</pubDate>
+	  <guid>//rice-360</guid>
+	  <description><![CDATA[
+	     <p>My undergraduate biodesign team, Team ForSight, was invited to participate in the <a href="http://www.rice360.rice.edu/#!design-competition/wv2xp">Rice 360° Sixth Annual Undergraduate Global Health Technologies Design Competition</a>. My team mates, Amanda and Ian, and I presented our design for a drug-eluting contact lens targeted for use in developing countries, to deliver antifungal drug natamycin to treat corneal ulcers.</p>
+
+<p>There, we also received feedback from industry and clinical experts on ways to improve our product design to increase its usability both in a developing world setting.</p>
+
+<p>Here is an abstract of our presentation to Rice 360:</p>
+
+<blockquote>
+  <p>Corneal ulceration is a leading cause of preventable blindness in the developing world, where the cost of treatment and the lack of accessible medical facilities pose barriers to administering care.</p>
+</blockquote>
+
+<blockquote>
+  <p>We have designed a proof-of-concept prototype for a novel drug eluting contact lens, which delivers drugs directly to the cornea. The design consists of a layer of PDMS, a soft, biocompatible polymer, to keep the contact’s shape, and a layer of biodegradable PLGA, which contains the drug in suspension.</p>
+</blockquote>
+
+<blockquote>
+  <p>Using natamycin, the only FDA-approved ocular antifungal drug, we have demonstrated the effectiveness of our contact design to clear yeast in agar diffusion tests. We also showed that our degradation design delivers drug more efficiently and in a more sustained fashion than both eyedrops and a diffusion limited model. Our contact lens prototype provides a proof of concept for a low-cost, easy-to-use ocular drug delivery device.</p>
+</blockquote>
+
+<p>For more information on our product, please <a href="author/zian">contact me</a>.</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>Bioweapons Departmental Seminar at the MIIS</title>
+	  <link>//miis-seminar</link>
+	  <author>Zian Liu</author>
+	  <pubDate>2016-02-25T04:00:00-08:00</pubDate>
+	  <guid>//miis-seminar</guid>
+	  <description><![CDATA[
+	     <p>By the invitation of <a href="http://www.miis.edu/academics/faculty/rzilinskas">Dr. Ray Zilinskas</a>, I spoke at a departmental seminar at the <a href="http://www.miis.edu/">Middlebury Institute of International Studies</a> today, where I presented my research on the impacts of recent technological advances on the biosecurity landscape. I was the first undergraduate to ever be invited and to speak at such a seminar at MIIS, a graduate-only institution.</p>
+
+<blockquote>
+  <p>Scholars claim that recent technology advances mean that even teenagers can make bioweapons. While this is theoretically possible, it is also very unlikely. Mr. Liu presents a plausible pathway for amateur biohackers to engineer a weapon and assess the difficulty of every step. Furthermore, he comments on how improvements in DNA editing may alter the biosecurity landscape.</p>
+</blockquote>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VxaY7M57saE" frameborder="0" allowfullscreen=""></iframe>
+
+<p>You can find out more about my seminar on the MIIS James Martin Center for Nonproliferation Studies website <a href="http://www.nonproliferation.org/bioweapons-for-dummies-evaluating-the-threat-of-rogue-biohacking-2/">here</a>.</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>Bulletin of the Atomic Scietists - Bioweapons... for Dummies?</title>
+	  <link>//the-bulletin</link>
+	  <author>Zian Liu</author>
+	  <pubDate>2015-09-28T00:00:00-07:00</pubDate>
+	  <guid>//the-bulletin</guid>
+	  <description><![CDATA[
+	     <p>My article on the threat of amateur biohacking on the national security landscape was published on the Bulletin of the Atomic Scietists today, in the “Voices of Tomorrow” column.</p>
+
+<blockquote>
+  <p>Ignore the hype. Novice biologists aren’t likely to construct advanced weapons any time soon.</p>
+</blockquote>
+
+<p><a href="http://thebulletin.org/bioweapons-%E2%80%A6-dummies8769">Read it here</a>!</p>
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>
