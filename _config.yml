@@ -14,10 +14,10 @@ author: 'Zian Liu'
 nickname: zian
 bio: 'One upon a time, I was BioEHS President and had a minor in public policy...'
 location: 'Berkeley, CA'
-url: 'mailto:chairmanzian@gmail.com'
+# url: 'mailto:chairmanzian@gmail.com'
 image: 'assets/images/zian.png'
 
-short_url: 'chairmanzian@gmail.com'
+# short_url: 'chairmanzian@gmail.com'
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
 baseurl: /
 
@@ -41,10 +41,10 @@ exclude: [vendor]
 # Where things are
 source:       .
 destination:  ./_site
-plugins_dir:  _plugins
-layouts_dir:  _layouts
-data_dir:     _data
-includes_dir: _includes
+#plugins_dir:  _plugins
+#layouts_dir:  _layouts
+#data_dir:     _data
+#includes_dir: _includes
 collections:
   posts:
     output:   true
