@@ -3,9 +3,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
    
-      <title></title>
+      <title>chairmanzian@gmail.com</title>
    
-   <link></link>
+   <link>mailto:chairmanzian@gmail.com</link>
    <description>Synthetic biologist, bioengineer, biosafety advocate, STEM outreach organizer, political junkie, menswear enthusiast, fountain pen user, coffee addict, and more.</description>
    <language>en-us</language>
    <managingEditor> Zian Liu</managingEditor>
@@ -13,10 +13,10 @@
    
 	<item>
 	  <title>My First Fountain Pen</title>
-	  <link>//tag/:tag</link>
+	  <link>//first-fp</link>
 	  <author>Zian Liu</author>
 	  <pubDate>2016-06-25T09:25:00-07:00</pubDate>
-	  <guid>//tag/:tag</guid>
+	  <guid>//first-fp</guid>
 	  <description><![CDATA[
 	     <p>Sometime in elementary school (for me, it was second grade), every Chinese kid would need to switch from writing with pencil to writing with a fountain pen - in every class. In addition to teaching us to write neatly, writing with a fountain pen was supposed to instill in us the value of doing things correctly the first time around. After all, ink, unlike graphite, was permanent, and showed our mistakes. So, if crossed-out sections or evidence of mysteriously ripped-out pages were found in our noteboks, we would be called up to the front of the class and berated for all to see.</p>
 
