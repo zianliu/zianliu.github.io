@@ -1,28 +1,253 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.name | xml_escape }} - Articles</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
+    <title>Zian &quot;Zane&quot; Liu - Articles</title>
+    <description>Synthetic biologist, bioengineer, biosafety advocate, STEM outreach organizer, political junkie, menswear enthusiast, fountain pen user, coffee addict, and more.</description>
     <link>
-    {{ site.url }}</link>
-    {% for post in site.posts %}
-      {% unless post.link %}
+    </link>
+    
+      
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        {% if post.excerpt %}
-          <description>{{ post.excerpt | xml_escape }}</description>
-        {% else %}
-          <description>{{ post.content | xml_escape }}</description>
-        {% endif %}
-        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <title>The Tieless Suit</title>
+        
+          <description>&lt;p&gt;&lt;img src=&quot;http://globalbalita.com/wp-content/uploads/2013/06/Barack-Obama-and-Xi-Jinping-summit-2013.3.jpg&quot; alt=&quot;Xi Obama Sunnylands&quot; /&gt;
+&lt;em&gt;Presidents Xi of China and Obama of the United States met yesterday at the Sunnylands Estate in California. The dress code of the event was “no ties,” to emphasize the casual and friendly nature of the talks, but both leaders still chose to wear conservative solid navy suits and white shirts. (Photo: Evan Vucci, AP)&lt;/em&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 09 Aug 2016 11:13:00 -0700</pubDate>
         <link>
-        {{ site.url }}{{ post.url }}</link>
-        <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+        /tag/:tag</link>
+        <guid isPermaLink="true">/tag/:tag</guid>
       </item>
-      {% endunless %}
-    {% endfor %}
+      
+    
+      
+      <item>
+        <title>How Wide Should Ties Be?</title>
+        
+          <description>&lt;p&gt;Some ties can compete with spaghetti strands with respect of width, while other ties look more like napkins. I’ve seen ties from 1 inch to 5 inches. Ties both extremely wide and extremely narrow look comical when worn by common folk, but somehow, there are people who can magically pull it off.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sun, 07 Aug 2016 11:32:00 -0700</pubDate>
+        <link>
+        /tag/:tag</link>
+        <guid isPermaLink="true">/tag/:tag</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Dimple Your Tie!</title>
+        
+          <description>&lt;p&gt;Well, technically, it’s a choice, but really, do dimple your tie.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 02 Aug 2016 12:13:00 -0700</pubDate>
+        <link>
+        /tag/:tag</link>
+        <guid isPermaLink="true">/tag/:tag</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>My First Fountain Pen</title>
+        
+          <description>&lt;p&gt;Sometime in elementary school (for me, it was second grade), every Chinese kid would need to switch from writing with pencil to writing with a fountain pen - in every class. In addition to teaching us to write neatly, writing with a fountain pen was supposed to instill in us the value of doing things correctly the first time around. After all, ink, unlike graphite, was permanent, and showed our mistakes. So, if crossed-out sections or evidence of mysteriously ripped-out pages were found in our noteboks, we would be called up to the front of the class and berated for all to see.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sat, 25 Jun 2016 09:25:00 -0700</pubDate>
+        <link>
+        /tag/:tag</link>
+        <guid isPermaLink="true">/tag/:tag</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Rice 360 Design Competition</title>
+        
+          <description>&lt;p&gt;My undergraduate biodesign team, Team ForSight, was invited to participate in the &lt;a href=&quot;http://www.rice360.rice.edu/#!design-competition/wv2xp&quot;&gt;Rice 360° Sixth Annual Undergraduate Global Health Technologies Design Competition&lt;/a&gt;. My team mates, Amanda and Ian, and I presented our design for a drug-eluting contact lens targeted for use in developing countries, to deliver antifungal drug natamycin to treat corneal ulcers.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 15 Apr 2016 10:00:00 -0700</pubDate>
+        <link>
+        /tag/:tag</link>
+        <guid isPermaLink="true">/tag/:tag</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Bioweapons Departmental Seminar at the MIIS</title>
+        
+          <description>&lt;p&gt;By the invitation of &lt;a href=&quot;http://www.miis.edu/academics/faculty/rzilinskas&quot;&gt;Dr. Ray Zilinskas&lt;/a&gt;, I spoke at a departmental seminar at the &lt;a href=&quot;http://www.miis.edu/&quot;&gt;Middlebury Institute of International Studies&lt;/a&gt; today, where I presented my research on the impacts of recent technological advances on the biosecurity landscape. I was the first undergraduate to ever be invited and to speak at such a seminar at MIIS, a graduate-only institution.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 25 Feb 2016 04:00:00 -0800</pubDate>
+        <link>
+        /tag/:tag</link>
+        <guid isPermaLink="true">/tag/:tag</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>The Brooks Brothers No. 1 Stripe</title>
+        
+          <description>&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-version=&quot;7&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:8px;&quot;&gt; &lt;div style=&quot; background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;&quot;&gt; &lt;div style=&quot; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;&lt;a href=&quot;https://www.instagram.com/p/-zEkcqQig3/&quot; style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;&quot; target=&quot;_blank&quot;&gt;A photo posted by Zian Liu (@chairmanzian)&lt;/a&gt; on &lt;time style=&quot; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&quot; datetime=&quot;2015-12-02T17:34:39+00:00&quot;&gt;Dec 2, 2015 at 9:34am PST&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; defer=&quot;&quot; src=&quot;//platform.instagram.com/en_US/embeds.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        
+        <pubDate>Wed, 02 Dec 2015 09:34:00 -0800</pubDate>
+        <link>
+        /tag/:tag</link>
+        <guid isPermaLink="true">/tag/:tag</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Bulletin of the Atomic Scietists - Bioweapons... for Dummies?</title>
+        
+          <description>&lt;p&gt;My article on the threat of amateur biohacking on the national security landscape was published on the Bulletin of the Atomic Scietists today, in the “Voices of Tomorrow” column.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 28 Sep 2015 00:00:00 -0700</pubDate>
+        <link>
+        /tag/:tag</link>
+        <guid isPermaLink="true">/tag/:tag</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Can I Wear a Button-Down Collar With a Tie?</title>
+        
+          <description>&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-version=&quot;7&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:8px;&quot;&gt; &lt;div style=&quot; background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;&quot;&gt; &lt;div style=&quot; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;&lt;a href=&quot;https://www.instagram.com/p/7IpJkDwig7/&quot; style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;&quot; target=&quot;_blank&quot;&gt;A photo posted by Zian Liu (@chairmanzian)&lt;/a&gt; on &lt;time style=&quot; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&quot; datetime=&quot;2015-09-02T16:32:46+00:00&quot;&gt;Sep 2, 2015 at 9:32am PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; defer=&quot;&quot; src=&quot;//platform.instagram.com/en_US/embeds.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        
+        <pubDate>Wed, 02 Sep 2015 03:58:00 -0700</pubDate>
+        <link>
+        /tag/:tag</link>
+        <guid isPermaLink="true">/tag/:tag</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>BioEHS President Inaugural Address</title>
+        
+          <description>&lt;p&gt;I am honored and humbled to assume the Office of President of the Bioengineering Honor Society. For myself and on behalf of this club, I want to thank my predecessor for all she has done.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 12 Dec 2014 12:18:00 -0800</pubDate>
+        <link>
+        /tag/:tag</link>
+        <guid isPermaLink="true">/tag/:tag</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>On Open Collars</title>
+        
+          <description>&lt;p&gt;&lt;img src=&quot;assets/images/tieless.jpg&quot; alt=&quot;Tieless at an outreach event&quot; /&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sat, 13 Jul 2013 13:13:00 -0700</pubDate>
+        <link>
+        /tag/:tag</link>
+        <guid isPermaLink="true">/tag/:tag</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>A Few Words on Socks</title>
+        
+          <description>&lt;p&gt;I’m not an expert on socks, but I know enough to not wear white athletic socks with my suits and black dress shoes. I even know not to wear black dress socks unless I’m wearing black trousers (which is a rare occurrence in the first place). Instead, a man’s dress socks should help connect one’s clothing to his shoes.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sun, 07 Jul 2013 13:13:00 -0700</pubDate>
+        <link>
+        /tag/:tag</link>
+        <guid isPermaLink="true">/tag/:tag</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>The Last Well Dressed President</title>
+        
+          <description>&lt;p&gt;President Obama wears a uniform of dark blue or charcoal suits with white or light blue medium-spread barrel cuff shirts and darker ties. The suits are mostly well-cut from Hart Schaffner Marx, a traditional American clothier, but they still look off-the-rack. Overall, President Obama looks just like another businessman – conservative and better than many of his poorly-dressed colleagues in Washington, but nothing special.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sat, 25 May 2013 03:58:00 -0700</pubDate>
+        <link>
+        /tag/:tag</link>
+        <guid isPermaLink="true">/tag/:tag</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Dress Shirts that Every Man Should Own</title>
+        
+          <description>&lt;p&gt;Though I often find reasons to justify my own dress shirt purchases, I have to admit: for a person who doesn’t plan to wear a dress shirt on a regular basis and instead only for designated “business” or “business casual” events, two dress shirts are sufficient – a plain white dress shirt with a medium-spread collar and barrel cuffs and a light blue button-down.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sun, 24 Mar 2013 17:05:00 -0700</pubDate>
+        <link>
+        /tag/:tag</link>
+        <guid isPermaLink="true">/tag/:tag</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Buttoning a Suit</title>
+        
+          <description>&lt;h3 id=&quot;history&quot;&gt;History&lt;/h3&gt;
+
+</description>
+        
+        <pubDate>Tue, 12 Mar 2013 18:05:00 -0700</pubDate>
+        <link>
+        /tag/:tag</link>
+        <guid isPermaLink="true">/tag/:tag</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Some Thoughts on Black Suits</title>
+        
+          <description>&lt;p&gt;The black suit is becoming increasingly popular among men. From President Vladimir Putin of the Russian Federation to Hollywood starts to peasants on Chinese farmer’s markets, the black suit now seems everywhere. In Asia, black has replaced navy blue and charcoal gray as the standard color for men. Even in the Americas, Men’s Wearhouse has gone as far as telling customers that the black suit is the “first and only suit” that most men need.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 06 Mar 2013 17:06:00 -0800</pubDate>
+        <link>
+        /tag/:tag</link>
+        <guid isPermaLink="true">/tag/:tag</guid>
+      </item>
+      
+    
   </channel>
 </rss>

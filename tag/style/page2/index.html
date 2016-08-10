@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- [[! Page Meta ]] -->
-    <title>The Style of a Chairman</title>
+    <title>Zian "Zane" Liu</title>
     <meta name="description" content="Zian "Zane" Liu - Synthetic biologist, bioengineer, biosafety advocate, STEM outreach organizer, political junkie, menswear enthusiast, fountain pen user, coffee addict, and more." />
 
     <meta name="HandheldFriendly" content="True" />
@@ -60,7 +60,7 @@
 
 
 </head>
-<body class="home-template nav-closed">
+<body class="paged archive-template nav-closed">
 
     <div class="nav">
     <h3 class="nav-title">Menu</h3>
@@ -68,11 +68,11 @@
         <span class="hidden">Close</span>
     </a>
     <ul>
-        <li class="nav-home  nav-current" role="presentation"><a href="/">Home</a></li>
+        <li class="nav-home " role="presentation"><a href="/">Home</a></li>
         <li class="nav-about " role="presentation"><a href="/about">About Zian</a></li>
         <li class="nav-projects " role="presentation"><a href="/tag/projects">Projects</a></li>
         <li class="nav-leadership " role="presentation"><a href="/tag/leadership">Leadership</a></li>
-        <li class="nav-style " role="presentation"><a href="/tag/style">Menswear Advice</a></li>
+        <li class="nav-style  nav-current" role="presentation"><a href="/tag/style">Menswear Advice</a></li>
         <li class="nav-interests " role="presentation"><a href="/tag/interests">Interests</a></li>
 		<li class="nav-author " role="presentation"><a href="/author/zian">Contact Me</a></li>
     </ul>
@@ -89,12 +89,14 @@
     <div class="site-wrapper">
 
         <!-- [[! Everything else gets inserted here ]] -->
-        <!-- < default -->
+        <!-- < dynamically overriding backgrounds for tags as well as descriptions -->
+
+
+<!-- < default}} -->
 <!-- The tag above means - insert everything in this file into the [body] of the default.hbs template -->
 
-<!-- The big featured header  -->
-<header class="main-header "
-        style="background-image: url(/assets/images/cover1.jpg) ">
+<!-- If we have a tag cover, display that - else blog cover - else nothing -->
+<header class="main-header tag-head " style="background-image: url(/assets/images/cover2.jpg) ">
     <nav class="main-nav overlay clearfix">
         <a class="blog-logo" href="/"><img src="/assets/images/logo.png" alt="Blog Logo" /></a>
         
@@ -103,11 +105,14 @@
     </nav>
     <div class="vertical">
         <div class="main-header-content inner">
-            <h1 class="page-title">Zian "Zane" Liu</h1>
-            <h2 class="page-description">Synthetic biologist, bioengineer, biosafety advocate, STEM outreach organizer, political junkie, menswear enthusiast, fountain pen user, coffee addict, and more.</h2>
+            <h1 class="page-title">Style</h1>
+            <h2 class="page-description">
+            
+			    A 11-post collection
+            
+            </h2>
         </div>
     </div>
-    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
 </header>
 
 <!-- The main content area on the homepage -->
@@ -119,9 +124,13 @@
         
             <nav class="pagination" role="pagination">
     
-    <span class="page-number"> Page 1 of 4 </span>
+        
+            <a class="newer-posts" href="/tag/style" title="Previous Page">&laquo; Newer Posts</a>
+        
+    
+    <span class="page-number"> Page 2 of 3 </span>
      
-        <a class="older-posts" href="/page2/" title="Next Page">Older Posts &raquo;</a>
+        <a class="older-posts" href="/tag/style/page3/" title="Next Page">Older Posts &raquo;</a>
      
 </nav>
         
@@ -131,10 +140,10 @@
     
     <article class="post">
         <header class="post-header">
-            <h2 class="post-title"><a href="/tag:tag">The Tieless Suit</a></h2>
+            <h2 class="post-title"><a href="/tag:tag">On Open Collars</a></h2>
         </header>
         <section class="post-excerpt">
-            <p>Presidents Xi of China and Obama of the United States met yesterday at the Sunnylands Estate in California. The dress code of the event was “no... <a class="read-more" href="/tag:tag">&raquo;</a></p>
+            <p>I had the misfortune of running into a seemingly unsuccessful job interview at Starbucks today. The interviewee looked stumped by all the unimpressed interviewer’s questions. To... <a class="read-more" href="/tag:tag">&raquo;</a></p>
         </section>
         <footer class="post-meta">
             <img class="author-thumb" src="/assets/images/zian.png" alt="Author image" nopin="nopin" />
@@ -149,16 +158,16 @@
                        
                 
             
-            <time class="post-date" datetime="2016-08-09">09 Aug 2016</time>
+            <time class="post-date" datetime="2013-07-13">13 Jul 2013</time>
         </footer>
     </article>
     
     <article class="post">
         <header class="post-header">
-            <h2 class="post-title"><a href="/tag:tag">How Wide Should Ties Be?</a></h2>
+            <h2 class="post-title"><a href="/tag:tag">A Few Words on Socks</a></h2>
         </header>
         <section class="post-excerpt">
-            <p>Some ties can compete with spaghetti strands with respect of width, while other ties look more like napkins. I’ve seen ties from 1 inch to 5... <a class="read-more" href="/tag:tag">&raquo;</a></p>
+            <p>I’m not an expert on socks, but I know enough to not wear white athletic socks with my suits and black dress shoes. I even know... <a class="read-more" href="/tag:tag">&raquo;</a></p>
         </section>
         <footer class="post-meta">
             <img class="author-thumb" src="/assets/images/zian.png" alt="Author image" nopin="nopin" />
@@ -173,16 +182,16 @@
                        
                 
             
-            <time class="post-date" datetime="2016-08-07">07 Aug 2016</time>
+            <time class="post-date" datetime="2013-07-07">07 Jul 2013</time>
         </footer>
     </article>
     
     <article class="post">
         <header class="post-header">
-            <h2 class="post-title"><a href="/tag:tag">Dimple Your Tie!</a></h2>
+            <h2 class="post-title"><a href="/tag:tag">The Last Well Dressed President</a></h2>
         </header>
         <section class="post-excerpt">
-            <p>Well, technically, it’s a choice, but really, do dimple your tie. In ties, a dimple is an indentation of the tie’s fabric formed directly below the... <a class="read-more" href="/tag:tag">&raquo;</a></p>
+            <p>President Obama wears a uniform of dark blue or charcoal suits with white or light blue medium-spread barrel cuff shirts and darker ties. The suits are... <a class="read-more" href="/tag:tag">&raquo;</a></p>
         </section>
         <footer class="post-meta">
             <img class="author-thumb" src="/assets/images/zian.png" alt="Author image" nopin="nopin" />
@@ -197,16 +206,16 @@
                        
                 
             
-            <time class="post-date" datetime="2016-08-02">02 Aug 2016</time>
+            <time class="post-date" datetime="2013-05-25">25 May 2013</time>
         </footer>
     </article>
     
     <article class="post">
         <header class="post-header">
-            <h2 class="post-title"><a href="/tag:tag">My First Fountain Pen</a></h2>
+            <h2 class="post-title"><a href="/tag:tag">Dress Shirts that Every Man Should Own</a></h2>
         </header>
         <section class="post-excerpt">
-            <p>Sometime in elementary school (for me, it was second grade), every Chinese kid would need to switch from writing with pencil to writing with a fountain... <a class="read-more" href="/tag:tag">&raquo;</a></p>
+            <p>Though I often find reasons to justify my own dress shirt purchases, I have to admit: for a person who doesn’t plan to wear a dress... <a class="read-more" href="/tag:tag">&raquo;</a></p>
         </section>
         <footer class="post-meta">
             <img class="author-thumb" src="/assets/images/zian.png" alt="Author image" nopin="nopin" />
@@ -217,24 +226,20 @@
                 on 
                 
                     
-                       <a href='/tag/interests'>Interests</a>,
-                       
-                
-                    
-                       <a href='/tag/fountainpen'>Fountainpen</a>
+                       <a href='/tag/style'>Style</a>
                        
                 
             
-            <time class="post-date" datetime="2016-06-25">25 Jun 2016</time>
+            <time class="post-date" datetime="2013-03-24">24 Mar 2013</time>
         </footer>
     </article>
     
     <article class="post">
         <header class="post-header">
-            <h2 class="post-title"><a href="/tag:tag">Rice 360 Design Competition</a></h2>
+            <h2 class="post-title"><a href="/tag:tag">Buttoning a Suit</a></h2>
         </header>
         <section class="post-excerpt">
-            <p>My undergraduate biodesign team, Team ForSight, was invited to participate in the Rice 360° Sixth Annual Undergraduate Global Health Technologies Design Competition. My team mates, Amanda... <a class="read-more" href="/tag:tag">&raquo;</a></p>
+            <p>History Back in the 19th century, suits were designed for all buttons of a suit to be buttoned. However, in the early 1900s, King Edward VII... <a class="read-more" href="/tag:tag">&raquo;</a></p>
         </section>
         <footer class="post-meta">
             <img class="author-thumb" src="/assets/images/zian.png" alt="Author image" nopin="nopin" />
@@ -245,11 +250,11 @@
                 on 
                 
                     
-                       <a href='/tag/projects'>Projects</a>
+                       <a href='/tag/style'>Style</a>
                        
                 
             
-            <time class="post-date" datetime="2016-04-15">15 Apr 2016</time>
+            <time class="post-date" datetime="2013-03-12">12 Mar 2013</time>
         </footer>
     </article>
     
@@ -258,9 +263,13 @@
     
         <nav class="pagination" role="pagination">
     
-    <span class="page-number"> Page 1 of 4 </span>
+        
+            <a class="newer-posts" href="/tag/style" title="Previous Page">&laquo; Newer Posts</a>
+        
+    
+    <span class="page-number"> Page 2 of 3 </span>
      
-        <a class="older-posts" href="/page2/" title="Next Page">Older Posts &raquo;</a>
+        <a class="older-posts" href="/tag/style/page3/" title="Next Page">Older Posts &raquo;</a>
      
 </nav>
     

@@ -14,10 +14,8 @@ author: 'Zian Liu'
 nickname: zian
 bio: 'One upon a time, I was BioEHS President and had a minor in public policy...'
 location: 'Berkeley, CA'
-url: 'mailto:chairmanzian@gmail.com'
 image: 'assets/images/zian.png'
 
-short_url: 'chairmanzian@gmail.com'
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
 baseurl: /
 

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- [[! Page Meta ]] -->
-    <title>The Style of a Chairman</title>
+    <title>Author</title>
     <meta name="description" content="Zian "Zane" Liu - Synthetic biologist, bioengineer, biosafety advocate, STEM outreach organizer, political junkie, menswear enthusiast, fountain pen user, coffee addict, and more." />
 
     <meta name="HandheldFriendly" content="True" />
@@ -60,7 +60,7 @@
 
 
 </head>
-<body class="home-template nav-closed">
+<body class="paged archive-template nav-closed">
 
     <div class="nav">
     <h3 class="nav-title">Menu</h3>
@@ -68,13 +68,13 @@
         <span class="hidden">Close</span>
     </a>
     <ul>
-        <li class="nav-home  nav-current" role="presentation"><a href="/">Home</a></li>
+        <li class="nav-home " role="presentation"><a href="/">Home</a></li>
         <li class="nav-about " role="presentation"><a href="/about">About Zian</a></li>
         <li class="nav-projects " role="presentation"><a href="/tag/projects">Projects</a></li>
         <li class="nav-leadership " role="presentation"><a href="/tag/leadership">Leadership</a></li>
         <li class="nav-style " role="presentation"><a href="/tag/style">Menswear Advice</a></li>
         <li class="nav-interests " role="presentation"><a href="/tag/interests">Interests</a></li>
-		<li class="nav-author " role="presentation"><a href="/author/zian">Contact Me</a></li>
+		<li class="nav-author  nav-current" role="presentation"><a href="/author/zian">Contact Me</a></li>
     </ul>
 
 
@@ -89,39 +89,55 @@
     <div class="site-wrapper">
 
         <!-- [[! Everything else gets inserted here ]] -->
-        <!-- < default -->
+        <!-- < default}} -->
 <!-- The tag above means - insert everything in this file into the [body] of the default.hbs template -->
 
-<!-- The big featured header  -->
-<header class="main-header "
-        style="background-image: url(/assets/images/cover1.jpg) ">
-    <nav class="main-nav overlay clearfix">
-        <a class="blog-logo" href="/"><img src="/assets/images/logo.png" alt="Blog Logo" /></a>
+<!-- The big featured header -->
+
+<!-- Everything inside the #author tags pulls data from the author -->
+<!-- #author  -->
+    <header class="main-header author-head " style="background-image: url(/assets/images/cover3.jpg) ">
+        <nav class="main-nav overlay clearfix">
+            <a class="blog-logo" href="/"><img src="/assets/images/logo.png" alt="Blog Logo" /></a>
+            
+                <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
+            
+        </nav>
+    </header>
+
+    <section class="author-profile inner">
         
-            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
+        <figure class="author-image">
+            <div class="img" style="background-image: url(/assets/images/zian.png)"><span class="hidden">Zian Liu's Picture</span></div>
+        </figure>
         
-    </nav>
-    <div class="vertical">
-        <div class="main-header-content inner">
-            <h1 class="page-title">Zian "Zane" Liu</h1>
-            <h2 class="page-description">Synthetic biologist, bioengineer, biosafety advocate, STEM outreach organizer, political junkie, menswear enthusiast, fountain pen user, coffee addict, and more.</h2>
+        <h1 class="author-title">Zian Liu</h1>
+        
+            <h2 class="author-bio">One upon a time, I was BioEHS President and had a minor in public policy...</h2>
+        
+        <div class="author-meta">
+            <span class="author-location icon-location">Berkeley, CA</span>
+            
+            <!-- <span class="author-stats"><i class="icon-stats"></i> [[plural ../pagination.total empty='No posts' singular='% post' plural='% posts']]</span> -->
+            <span class="author-stats"><i class="icon-stats"></i>16 posts</span>
         </div>
-    </div>
-    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
-</header>
+    </section>
+<!-- /author -->
 
 <!-- The main content area on the homepage -->
 <main id="content" class="content" role="main">
 
-    <!-- The tag below includes the post loop - partials/loop.hbs -->
+    <!-- The tag below includes the post loop - partials/loop.hbs  -->
         <!-- Previous/next page links - only displayed on page 2+ -->
     <div class="extra-pagination inner">
         
             <nav class="pagination" role="pagination">
     
-    <span class="page-number"> Page 1 of 4 </span>
-     
-        <a class="older-posts" href="/page2/" title="Next Page">Older Posts &raquo;</a>
+        
+            <a class="newer-posts" href="/author/zian/page3/" title="Previous Page">&laquo; Newer Posts</a>
+      
+    
+    <span class="page-number"> Page 4 of 4 </span>
      
 </nav>
         
@@ -131,10 +147,10 @@
     
     <article class="post">
         <header class="post-header">
-            <h2 class="post-title"><a href="/tag:tag">The Tieless Suit</a></h2>
+            <h2 class="post-title"><a href="/tag:tag">Some Thoughts on Black Suits</a></h2>
         </header>
         <section class="post-excerpt">
-            <p>Presidents Xi of China and Obama of the United States met yesterday at the Sunnylands Estate in California. The dress code of the event was “no... <a class="read-more" href="/tag:tag">&raquo;</a></p>
+            <p>The black suit is becoming increasingly popular among men. From President Vladimir Putin of the Russian Federation to Hollywood starts to peasants on Chinese farmer’s markets,... <a class="read-more" href="/tag:tag">&raquo;</a></p>
         </section>
         <footer class="post-meta">
             <img class="author-thumb" src="/assets/images/zian.png" alt="Author image" nopin="nopin" />
@@ -149,107 +165,7 @@
                        
                 
             
-            <time class="post-date" datetime="2016-08-09">09 Aug 2016</time>
-        </footer>
-    </article>
-    
-    <article class="post">
-        <header class="post-header">
-            <h2 class="post-title"><a href="/tag:tag">How Wide Should Ties Be?</a></h2>
-        </header>
-        <section class="post-excerpt">
-            <p>Some ties can compete with spaghetti strands with respect of width, while other ties look more like napkins. I’ve seen ties from 1 inch to 5... <a class="read-more" href="/tag:tag">&raquo;</a></p>
-        </section>
-        <footer class="post-meta">
-            <img class="author-thumb" src="/assets/images/zian.png" alt="Author image" nopin="nopin" />
-            <!-- author -->
-            <a href='/author/zian'>Zian Liu</a>
-            <!-- [[tags prefix=" on "]] -->
-             
-                on 
-                
-                    
-                       <a href='/tag/style'>Style</a>
-                       
-                
-            
-            <time class="post-date" datetime="2016-08-07">07 Aug 2016</time>
-        </footer>
-    </article>
-    
-    <article class="post">
-        <header class="post-header">
-            <h2 class="post-title"><a href="/tag:tag">Dimple Your Tie!</a></h2>
-        </header>
-        <section class="post-excerpt">
-            <p>Well, technically, it’s a choice, but really, do dimple your tie. In ties, a dimple is an indentation of the tie’s fabric formed directly below the... <a class="read-more" href="/tag:tag">&raquo;</a></p>
-        </section>
-        <footer class="post-meta">
-            <img class="author-thumb" src="/assets/images/zian.png" alt="Author image" nopin="nopin" />
-            <!-- author -->
-            <a href='/author/zian'>Zian Liu</a>
-            <!-- [[tags prefix=" on "]] -->
-             
-                on 
-                
-                    
-                       <a href='/tag/style'>Style</a>
-                       
-                
-            
-            <time class="post-date" datetime="2016-08-02">02 Aug 2016</time>
-        </footer>
-    </article>
-    
-    <article class="post">
-        <header class="post-header">
-            <h2 class="post-title"><a href="/tag:tag">My First Fountain Pen</a></h2>
-        </header>
-        <section class="post-excerpt">
-            <p>Sometime in elementary school (for me, it was second grade), every Chinese kid would need to switch from writing with pencil to writing with a fountain... <a class="read-more" href="/tag:tag">&raquo;</a></p>
-        </section>
-        <footer class="post-meta">
-            <img class="author-thumb" src="/assets/images/zian.png" alt="Author image" nopin="nopin" />
-            <!-- author -->
-            <a href='/author/zian'>Zian Liu</a>
-            <!-- [[tags prefix=" on "]] -->
-             
-                on 
-                
-                    
-                       <a href='/tag/interests'>Interests</a>,
-                       
-                
-                    
-                       <a href='/tag/fountainpen'>Fountainpen</a>
-                       
-                
-            
-            <time class="post-date" datetime="2016-06-25">25 Jun 2016</time>
-        </footer>
-    </article>
-    
-    <article class="post">
-        <header class="post-header">
-            <h2 class="post-title"><a href="/tag:tag">Rice 360 Design Competition</a></h2>
-        </header>
-        <section class="post-excerpt">
-            <p>My undergraduate biodesign team, Team ForSight, was invited to participate in the Rice 360° Sixth Annual Undergraduate Global Health Technologies Design Competition. My team mates, Amanda... <a class="read-more" href="/tag:tag">&raquo;</a></p>
-        </section>
-        <footer class="post-meta">
-            <img class="author-thumb" src="/assets/images/zian.png" alt="Author image" nopin="nopin" />
-            <!-- author -->
-            <a href='/author/zian'>Zian Liu</a>
-            <!-- [[tags prefix=" on "]] -->
-             
-                on 
-                
-                    
-                       <a href='/tag/projects'>Projects</a>
-                       
-                
-            
-            <time class="post-date" datetime="2016-04-15">15 Apr 2016</time>
+            <time class="post-date" datetime="2013-03-06">06 Mar 2013</time>
         </footer>
     </article>
     
@@ -258,9 +174,11 @@
     
         <nav class="pagination" role="pagination">
     
-    <span class="page-number"> Page 1 of 4 </span>
-     
-        <a class="older-posts" href="/page2/" title="Next Page">Older Posts &raquo;</a>
+        
+            <a class="newer-posts" href="/author/zian/page3/" title="Previous Page">&laquo; Newer Posts</a>
+      
+    
+    <span class="page-number"> Page 4 of 4 </span>
      
 </nav>
     
