@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+gem "activesupport"
 gem "jekyll", "~> 3.0.3"
 #gem "rdiscount", "~> 2.1.7"
 #gem "pygments.rb", "~> 0.6.3"
