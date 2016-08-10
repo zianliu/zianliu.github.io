@@ -1,6 +1,4 @@
 # Jykell configuration
-#markdown: redcarpet
-#highlighter: pygments
 markdown: kramdown
 highlighter: rouge
 paginate: 5
@@ -20,16 +18,13 @@ url: 'mailto:chairmanzian@gmail.com'
 image: 'assets/images/zian.png'
 
 short_url: 'chairmanzian@gmail.com'
-google_analytics: 
-disqus: 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
 baseurl: /
 
 # Permalinks
 permalink: /:title
-# permalink: /author/:username
-# permalink: /tag/:tag
-
+permalink: /author/:username
+permalink: /tag/:tag
 
 # gems and other configs
 gems: [jekyll-paginate]
@@ -43,26 +38,17 @@ exclude: [vendor]
 # Disqus comments as a per-post basis
 # ...
 
+# Where things are
+source:       .
+destination:  ./_site
+plugins_dir:  _plugins
+layouts_dir:  _layouts
+data_dir:     _data
+includes_dir: _includes
+collections:
+  posts:
+    output:   true
 
-# Settings for builing master branch with travis-ci
-# with jekyll-travis
-
-# Settings for deploy rake task
-# Username and repo of Github repo, e.g.
-# https://github.com/USERNAME/REPO.git
-# username defaults to ENV['GIT_NAME'] used by Travis
-# repo defaults to USERNAME.github.io
-# Branch defaults to "source" for USERNAME.github.io
-# or "master" otherwise
-safe: false
-lsi: false
-username: zianliu
-repo: zianliu.giohub.io
-branch: master
-relative_source: /
-destination: _site
-production_url:  https://zianliu.github.io/
-source_url:      https://github.com/zianliu/zianliu.github.io/
 
 exclude:
   - README.md
