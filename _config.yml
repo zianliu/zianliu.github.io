@@ -54,15 +54,15 @@ exclude: [vendor]
 # repo defaults to USERNAME.github.io
 # Branch defaults to "source" for USERNAME.github.io
 # or "master" otherwise
-safe: false
-lsi: false
-username: zianliu
-repo: zianliu.giohub.io
-branch: master
-relative_source: https://zianliu.github.io/
-destination: https://zianliu.github.io/
-production_url:  https://zianliu.github.io/
-source_url:      https://github.com/zianliu/zianliu.github.io/
+#safe: false
+#lsi: false
+#username: zianliu
+#repo: zianliu.giohub.io
+#branch: master
+#relative_source: https://zianliu.github.io/
+#destination: https://zianliu.github.io/
+#production_url:  https://zianliu.github.io/
+#source_url:      https://github.com/zianliu/zianliu.github.io/
 
 exclude:
   - README.md
