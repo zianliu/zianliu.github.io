@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- [[! Page Meta ]] -->
-    <title>Bulletin of the Atomic Scietists - Bioweapons... for Dummies?</title>
+    <title>The Style of a Chairman</title>
     <meta name="description" content="Zian "Zane" Liu - Synthetic biologist, bioengineer, biosafety advocate, STEM outreach organizer, political junkie, menswear enthusiast, fountain pen user, coffee addict, and more." />
 
     <meta name="HandheldFriendly" content="True" />
@@ -60,7 +60,7 @@
 
 
 </head>
-<body class="home-template nav-closed">
+<body class="paged archive-template nav-closed">
 
     <div class="nav">
     <h3 class="nav-title">Menu</h3>
@@ -68,7 +68,7 @@
         <span class="hidden">Close</span>
     </a>
     <ul>
-        <li class="nav-home " role="presentation"><a href="/">Home</a></li>
+        <li class="nav-home  nav-current" role="presentation"><a href="/">Home</a></li>
         <li class="nav-about " role="presentation"><a href="/about">About Zian</a></li>
         <li class="nav-projects " role="presentation"><a href="/tag/projects">Projects</a></li>
         <li class="nav-leadership " role="presentation"><a href="/tag/leadership">Leadership</a></li>
@@ -90,131 +90,111 @@
 
         <!-- [[! Everything else gets inserted here ]] -->
         <!-- < default -->
+<!-- The tag above means - insert everything in this file into the [body] of the default.hbs template -->
 
-<!-- The comment above "< default" means - insert everything in this file into -->
-    <!-- the [body] of the default.hbs template, which contains our header/footer. -->
-
-<!-- Everything inside the #post tags pulls data from the post -->
-<!-- #post -->
-
-<header class="main-header post-head no-cover">
-    <nav class="main-nav  clearfix">
-        
+<!-- The big featured header  -->
+<header class="main-header "
+        style="background-image: url(/assets/images/cover1.jpg) ">
+    <nav class="main-nav overlay clearfix">
+        <a class="blog-logo" href="/"><img src="/assets/images/logo.png" alt="Blog Logo" /></a>
         
             <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
         
     </nav>
+    <div class="vertical">
+        <div class="main-header-content inner">
+            <h1 class="page-title">Zian "Zane" Liu</h1>
+            <h2 class="page-description">Synthetic biologist, bioengineer, biosafety advocate, STEM outreach organizer, political junkie, menswear enthusiast, fountain pen user, coffee addict, and more.</h2>
+        </div>
+    </div>
+    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
 </header>
 
-<main class="content" role="main">
+<!-- The main content area on the homepage -->
+<main id="content" class="content" role="main">
 
-    <article class="post tag-test tag-content">
+    <!-- The tag below includes the post loop - partials/loop.hbs -->
+        <!-- Previous/next page links - only displayed on page 2+ -->
+    <div class="extra-pagination inner">
+        
+            <nav class="pagination" role="pagination">
+    
+        
+            <a class="newer-posts" href="/page4/" title="Previous Page">&laquo; Newer Posts</a>
+      
+    
+    <span class="page-number"> Page 5 of 5 </span>
+     
+</nav>
+        
+    </div>
 
+    <!-- This is the post loop - each post will be output using this markup -->
+    
+    <article class="post">
         <header class="post-header">
-            <h1 class="post-title">Bulletin of the Atomic Scietists - Bioweapons... for Dummies?</h1>
-            <section class="post-meta">
-            <!-- <a href='/'>Zian Liu</a> -->
-            <time class="post-date" datetime="2015-09-28">28 Sep 2015</time>
-                <!-- [[tags prefix=" on "]] -->
-                 
+            <h2 class="post-title"><a href="/buttoning-a-suit">Buttoning a Suit</a></h2>
+        </header>
+        <section class="post-excerpt">
+            <p>History Back in the 19th century, suits were designed for all buttons of a suit to be buttoned. However, in the early 1900s, King Edward VII... <a class="read-more" href="/buttoning-a-suit">&raquo;</a></p>
+        </section>
+        <footer class="post-meta">
+            <img class="author-thumb" src="/assets/images/zian.png" alt="Author image" nopin="nopin" />
+            <!-- author -->
+            <a href='/author/zian'>Zian Liu</a>
+            <!-- [[tags prefix=" on "]] -->
+             
                 on 
                 
                     
-                       <a href='/tag/projects'>Projects</a>
+                       <a href='/tag/style'>Style</a>
                        
                 
-                
-            </section>
-        </header>
-
-        <section class="post-content">
             
-            <p>My article on the threat of amateur biohacking on the national security landscape was published on the Bulletin of the Atomic Scietists today, in the “Voices of Tomorrow” column.</p>
-
-<blockquote>
-  <p>Ignore the hype. Novice biologists aren’t likely to construct advanced weapons any time soon.</p>
-</blockquote>
-
-<p><a href="http://thebulletin.org/bioweapons-%E2%80%A6-dummies8769">Read it here</a>!</p>
-
-
-        </section>
-
-        <footer class="post-footer">
-
-            <!-- Everything inside the #author tags pulls data from the author -->
-            <!-- #author-->
-
-            
-            <figure class="author-image">
-                <a class="img" href="/author/zian" style="background-image: url(/assets/images/zian.png)"><span class="hidden">'s Picture</span></a>
-            </figure>
-            
-
-            <section class="author">
-                <h4><a href="/author/zian">Zian Liu</a></h4>
-                
-                
-                    <p> One upon a time, I was BioEHS President and had a minor in public policy...</p>
-                
-                <div class="author-meta">
-                    <span class="author-location icon-location"> Berkeley, CA</span> 
-                    <span class="author-link icon-link"><a href="mailto:zane@chairmanzian.com"> zane@chairmanzian.com</a></span> 
-                </div>
-            </section>
-
-            <!-- /author  -->
-
-            <section class="share">
-                <h4>Share this post</h4>
-                <a class="icon-twitter" href="http://twitter.com/share?text=Bulletin of the Atomic Scietists - Bioweapons... for Dummies?&amp;url=mailto:zane@chairmanzian.comthe-bulletin"
-                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-                    <span class="hidden">Twitter</span>
-                </a>
-                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=mailto:zane@chairmanzian.comthe-bulletin"
-                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
-                    <span class="hidden">Facebook</span>
-                </a>
-                <a class="icon-google-plus" href="https://plus.google.com/share?url=mailto:zane@chairmanzian.comthe-bulletin"
-                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
-                    <span class="hidden">Google+</span>
-                </a>
-            </section>
-            
-            <!-- Add Disqus Comments -->
-            
-            
+            <time class="post-date" datetime="2013-03-12">12 Mar 2013</time>
         </footer>
-
     </article>
+    
+    <article class="post">
+        <header class="post-header">
+            <h2 class="post-title"><a href="/on-black-suits">Some Thoughts on Black Suits</a></h2>
+        </header>
+        <section class="post-excerpt">
+            <p>The black suit is becoming increasingly popular among men. From President Vladimir Putin of the Russian Federation to Hollywood starts to peasants on Chinese farmer’s markets,... <a class="read-more" href="/on-black-suits">&raquo;</a></p>
+        </section>
+        <footer class="post-meta">
+            <img class="author-thumb" src="/assets/images/zian.png" alt="Author image" nopin="nopin" />
+            <!-- author -->
+            <a href='/author/zian'>Zian Liu</a>
+            <!-- [[tags prefix=" on "]] -->
+             
+                on 
+                
+                    
+                       <a href='/tag/style'>Style</a>
+                       
+                
+            
+            <time class="post-date" datetime="2013-03-06">06 Mar 2013</time>
+        </footer>
+    </article>
+    
+
+    <!-- Previous/next page links - displayed on every page -->
+    
+        <nav class="pagination" role="pagination">
+    
+        
+            <a class="newer-posts" href="/page4/" title="Previous Page">&laquo; Newer Posts</a>
+      
+    
+    <span class="page-number"> Page 5 of 5 </span>
+     
+</nav>
+    
+
 
 </main>
-
-<aside class="read-next">
-
-    <!-- [[! next_post ]] -->
-    
-        <a class="read-next-story " style="background-image: url(/assets/images/bbno1.jpg)" href="/bb-no-1">
-            <section class="post">
-                <h2>The Brooks Brothers No. 1 Stripe</h2>
-                <p>A photo posted by Zian Liu (@chairmanzian) on Dec 2, 2015 at 9:34am PST There...</p>
-            </section>
-        </a>
-    
-    <!-- [[! /next_post ]] -->
-    <!-- [[! prev_post ]] -->
-    
-        <a class="read-next-story prev " style="background-image: url(/assets/images/bd.jpg)" href="/button-down-with-tie">
-            <section class="post">
-                <h2>Can I Wear a Button-Down Collar With a Tie?</h2>
-                <p>A photo posted by Zian Liu (@chairmanzian) on Sep 2, 2015 at 9:32am PDT The...</p>
-            </section>
-        </a>
-    
-    <!-- [[! /prev_post ]] -->
-</aside>
-
-<!-- /post -->
 
 
         <footer class="site-footer clearfix">
